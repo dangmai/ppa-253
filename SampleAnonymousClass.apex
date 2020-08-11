@@ -1,0 +1,4 @@
+String[] sampleList = new List<String>{ 'ABC' };
+for (String test : sampleList) {
+    System.debug(test);
+}

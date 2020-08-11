@@ -1,0 +1,15 @@
+module.exports = {
+  trailingComma: "none",
+  overrides: [
+    {
+      files: "**/lwc/**/*.html",
+      options: { parser: "lwc" },
+    },
+    {
+      files: "*.{cmp,page,component}",
+      options: { parser: "html" },
+    },
+  ],
+  tabWidth: 4,
+  printWidth: 120,
+};

@@ -1,0 +1,15 @@
+{
+  "name": "ppa-253",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "prettier": "2.0.5",
+    "prettier-plugin-apex": "1.6.0"
+  }
+}
